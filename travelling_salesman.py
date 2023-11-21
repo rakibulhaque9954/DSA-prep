@@ -48,10 +48,6 @@ coordinates = [list(map(int, input().split())) for _ in range(N)]
     # # Find the MST
     # mst_weight = find_mst(graph)
 
-
-N2, H2, W2 = 15, 200, 100
-cities2 = [(23, 181), (45, 111), (7, 169), (51, 188), (59, 68), (40, 197), (19, 49),
-           (59, 198), (43, 59), (19, 118), (69, 32), (27, 46), (11, 189), (83, 53), (65, 29)]
 graph = build_complete_graph(N2, cities2, H2, W2)
 mst_weight = find_mst(graph)
 # Output the minimum total distance
