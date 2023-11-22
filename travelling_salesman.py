@@ -45,8 +45,6 @@ coordinates = [list(map(int, input().split())) for _ in range(N)]
     # # Build a complete graph
     # graph = build_complete_graph(N, coordinates, H, W)
 
-    # # Find the MST
-    # mst_weight = find_mst(graph)
 
 graph = build_complete_graph(N2, cities2, H2, W2)
 mst_weight = find_mst(graph)
